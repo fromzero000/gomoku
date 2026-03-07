@@ -6,7 +6,7 @@
 
 #pragma comment(lib, "ws2_32.lib")
 constexpr int BUF_SIZE = 10;
-
+#1234
 int main(int argc, char* argv[])
 {
     WSAData wsaData;
@@ -15,5 +15,6 @@ int main(int argc, char* argv[])
         return 1;
     }
 
+    std::cout << "hello gomoku\n";
     return 0;
 }
