@@ -1,6 +1,12 @@
 #pragma once
 #include <vector>
 #include <iostream>
+
+struct MoveData
+{
+	int row, col;
+};
+
 enum class Stone {
 	Empty = 0,
 	Black,
